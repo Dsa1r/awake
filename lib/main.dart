@@ -27,8 +27,8 @@ bool m = true;
 Map<String, User> users = {
 
 
-  "adrisi": User(scientist: "adrisi", password: "1234"),
-  "Adrisi": User(scientist: "Adrisi", password: "5678")
+  "idrisi": User(scientist: "idrisi", password: "1234"),
+  "Idrisi": User(scientist: "Idrisi", password: "5678")
 };
 
 class HomePage extends StatefulWidget {
@@ -92,7 +92,7 @@ class _HomePageState extends State<HomePage> {
                           icon: Icon(Icons.remove_red_eye)),
                       border: OutlineInputBorder(
                         borderSide: BorderSide(),
-                        // التوضيح لما جرى فوق
+
                       ),
                     ),
                   ),
@@ -110,7 +110,6 @@ class _HomePageState extends State<HomePage> {
 
                     child: Container(
                       padding: const EdgeInsets.all(20),
-                      //توضيح بصري
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           color: Colors.brown),
