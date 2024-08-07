@@ -17,15 +17,15 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         ),
-        home: HomePage() //
+        home: HomePage() 
         );
   }
 }
 
-//
+
 bool m = true;
 Map<String, User> users = {
-  // ليه نكتب يوزر فوق؟
+
 
   "adrisi": User(scientist: "adrisi", password: "1234"),
   "Adrisi": User(scientist: "Adrisi", password: "5678")
@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
         body: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
-            // وش معنى شايلد هنا بالموضع هذا؟
+
             children: [
               Image.asset(
                 'assets/mapadrisi.jpeg',
@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
                   TextFormField(
                     controller: scientistController,
                     decoration: const InputDecoration(
-                      // ليه كل هذي تحت عنصر بادينق؟
+
                       label: Text('who is the scientist?'),
                       prefixIcon:
                           Icon(Icons.addchart_outlined, color: Colors.black12),
@@ -107,7 +107,7 @@ class _HomePageState extends State<HomePage> {
                         print("Try again!");
                       }
                     },
-                    //معنى اللي فوقي؟
+
                     child: Container(
                       padding: const EdgeInsets.all(20),
                       //توضيح بصري
