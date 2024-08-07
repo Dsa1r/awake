@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           backgroundColor: Colors.black26,
           centerTitle: true,
-          title: const Text("Answre and open your eyes!!",
+          title: const Text("Answer and open your eyes!!",
               style:
                   TextStyle(fontSize: 25, color: Color.fromARGB(255, 0, 0, 0))),
         ),
